@@ -1,0 +1,771 @@
+/* 
+
+font-family: 'IBM Plex Mono', monospace;
+
+font-family: 'Libre Franklin', sans-serif;
+
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+
+/* max_width */
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* universal-codes */
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+
+/* header_starting */
+
+header {
+    width: 100%;
+    background: url("./img/IMAGE.png") no-repeat center / cover;
+}
+
+header nav {
+    padding: 30px 0px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0px 15px;
+}
+
+header nav ul li a {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+}
+
+header nav ul li .button {
+    padding: 11px 17px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+header .headerTitle {
+    padding: 120px 0px;
+}
+
+header .headerTitle h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    letter-spacing: 1px;
+    color: white;
+    padding-bottom: 35px;
+}
+
+header .headerTitle p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+header .headerTitle button {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgba(90, 185, 99, 1);
+    border-radius: 4px;
+}
+
+
+/* section_cofe */
+
+.cofe {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+
+/* .cofe:after {
+    content: "";
+    width: 1170px;
+    height: 1px;
+    display: block;
+    background-color: red;
+} */
+
+.cofe p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    padding-bottom: 55px;
+}
+
+.cofe p span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.cofe .box {
+    /* width: 377px; */
+    /* height: 330px; */
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.cofe .box img {
+    padding-top: 51px;
+    padding-left: 41px;
+}
+
+.cofe .box h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    padding-left: 41px;
+}
+
+.cofe .box .sectionText {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+    padding-left: 41px;
+    padding-bottom: 109px;
+}
+
+.cofe .box .sectiontwo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+    padding-left: 41px;
+    padding-bottom: 116px;
+}
+
+.cofe .box .sectionthree {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+    padding-left: 41px;
+    padding-bottom: 85px;
+}
+
+
+/* section_image */
+
+.image h5 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    padding-top: 115px;
+    padding-bottom: 140px;
+}
+
+.image h5 span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+
+/* section_revers */
+
+.revers {
+    width: 100%;
+    padding: 120px 0px;
+}
+
+.revers h4 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    padding-top: 3px;
+    /* padding-left: 100px; */
+}
+
+.revers h4 span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.revers p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(153, 153, 153, 1);
+    padding-top: 25px;
+    /* padding-left: 100px; */
+}
+
+.revers h5 {
+    padding-top: 110px;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    padding-bottom: 12px;
+}
+
+.revers h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: rgba(90, 185, 99, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* section_party */
+
+.party {
+    width: 100%;
+    padding: 150px 0px;
+}
+
+.party h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(90, 185, 99, 1);
+}
+
+.party h3 :after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: rgba(90, 185, 99, 1);
+    /* margin: auto; */
+}
+
+.party p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+    padding-top: 15px;
+}
+
+.party p span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(153, 153, 153, 1);
+}
+
+.party button {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    padding-top: 14px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    border-radius: 4px;
+    background-color: rgba(90, 185, 99, 1);
+    border: none;
+}
+
+
+/* footer_starting */
+
+footer {
+    width: 100%;
+    background-color: rgba(10, 14, 26, 1);
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+footer h5 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(102, 102, 102, 1);
+    padding-top: 15px;
+}
+
+footer ul li {
+    margin: 25px 50px;
+}
+
+footer ul li a {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+
+
+/* Media */
+
+
+/* xl - 1200 */
+
+
+/* lg -1199px - 992 */
+
+@media (max-width: 1199px) {
+    header nav {
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 0px 9px;
+    }
+}
+
+
+/* md - 991px - 768px */
+
+@media (max-width: 991px) {
+
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 8px -20px;
+    }
+
+    header nav ul li .nuqta {
+        display: none;
+    }
+
+    header .headerTitle {
+        padding: 80px 0px;
+    }
+
+    header .headerTitle h1 {
+        font-size: 65px;
+        line-height: 70px;
+        padding-bottom: 25px;
+    }
+
+    header .headerTitle p {
+        font-size: 12px;
+        line-height: 18px;
+        padding-bottom: 44px;
+    }
+
+    header .headerTitle button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 15px 28px;
+        border-radius: 6px;
+    }
+
+    .cofe {
+        padding: 90px 0px;
+        text-align: center;
+    }
+
+    .cofe p {
+        font-size: 22px;
+        line-height: 34px;
+        padding-bottom: 45px;
+    }
+
+    .cofe .box img {
+        padding-top: 30px;
+    }
+
+    .cofe .box h3 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .cofe .box .sectionText {
+        padding-bottom: 70px;
+    }
+
+    .cofe .box {
+        margin-bottom: 20px;
+    }
+
+    .cofe {
+        padding: 70px 0px;
+    }
+
+    .image h5 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 70px;
+        padding-bottom: 65px;
+    }
+
+    .image h5 span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .revers {
+        padding: 80px 0px;
+        text-align: center;
+    }
+
+    .revers h4 {
+        font-size: 23px;
+        line-height: 35px;
+        padding-top: 20px;
+    }
+
+    .revers h4 span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .revers p {
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .revers p:before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: rgba(153, 153, 153, 1);
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .revers h5 {
+        padding-top: 40px;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .revers h3 {
+        font-size: 12px;
+    }
+
+    .party {
+        padding: 80px 0px;
+        text-align: center;
+    }
+
+    .party::before {
+        content: "";
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: rgba(153, 153, 153, 1);
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .party h3 {
+        font-size: 20px;
+    }
+
+    .party p {
+        padding-top: 10px;
+    }
+
+    .party button {
+        font-size: 15px;
+        line-height: 28px;
+        padding-top: 12px;
+        padding-right: 28px;
+        padding-bottom: 12px;
+        padding-left: 28px;
+        border-radius: 6px;
+    }
+
+    footer {
+        padding-top: 90px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        /* justify-content: flex-end!important; */
+        flex-direction: column;
+    }
+
+    footer ul li a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    footer ul li a:after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: rgba(153, 153, 153, 1);
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+
+/* sm - 767px - 576px */
+
+@media (max-width: 767px) {
+    header .headerTitle {
+        padding: 50px 0px;
+    }
+
+    header .headerTitle h1 {
+        font-size: 38px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    header .headerTitle p {
+        padding-bottom: 30px;
+    }
+
+    header .headerTitle button {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 14px 33px;
+        border-radius: 4px;
+    }
+
+    .cofe {
+        padding: 55px 0px;
+    }
+
+    .cofe p {
+        font-size: 19px;
+        line-height: 25px;
+        padding-bottom: 35px;
+    }
+
+    .cofe p span {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .cofe .box img {
+        padding-top: 25px;
+    }
+
+    .cofe .box .sectionText {
+        padding-bottom: 45px;
+    }
+
+    .image h5 {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 50px;
+        padding-bottom: 35px;
+    }
+
+    .image h5 span {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .revers h4 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 18px;
+    }
+
+    .revers h4 span {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .party {
+        padding: 60px 0px;
+    }
+
+    .party p {
+        padding-top: 5px;
+    }
+
+    .party p span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .party button {
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 10px;
+        padding-right: 26px;
+        padding-bottom: 10px;
+        padding-left: 26px;
+        border-radius: 3px;
+    }
+}
+
+
+/* col / xs - 575px - 320px */
+
+@media (max-width: 575px) {
+    header .headerTitle {
+        padding: 25px 0px;
+    }
+
+    header .headerTitle h1 {
+        font-size: 24px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+
+    header .headerTitle p {
+        font-size: 10px;
+        line-height: 16px;
+        padding-bottom: 20px;
+    }
+
+    header .headerTitle button {
+        font-size: 10px;
+        line-height: 20px;
+        padding: 10px 25px;
+        border-radius: 2px;
+    }
+
+    .cofe p {
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 30px;
+    }
+
+    .cofe p span {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .cofe .box {
+        margin-bottom: 15px;
+    }
+
+    .cofe .box img {
+        padding-top: 20px;
+    }
+
+    .cofe .box .sectionText {
+        padding-bottom: 30px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .cofe .box .sectiontwo {
+        font-size: 10px;
+        line-height: 16px;
+        padding-bottom: 40px;
+    }
+
+    .cofe .box .sectionthree {
+        font-size: 11px;
+        line-height: 20px;
+        padding-bottom: 40px;
+    }
+
+    .cofe {
+        padding: 50px 0px;
+    }
+
+    .image h5 {
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .image h5 span {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .revers {
+        padding: 35px 0px;
+    }
+
+    .revers h4 {
+        font-size: 16px;
+        line-height: 25px;
+        padding-top: 15px;
+    }
+
+    .revers h4 span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .revers p {
+        font-size: 12px;
+        line-height: 21px;
+        padding-top: 20px;
+    }
+
+    .party p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .party p span {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
